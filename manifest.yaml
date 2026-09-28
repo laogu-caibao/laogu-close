@@ -1,0 +1,5 @@
+slug: laogu-close
+display_name: 盘后复盘
+description: 盘后复盘：每个交易日收盘后生成中文复盘报告，覆盖指数与成交、板块、异动股、资金与明日展望。
+version: 1.0.0
+author: 老谷拆财报
