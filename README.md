@@ -50,6 +50,25 @@ https://github.com/laogu-caibao/laogu-close/archive/refs/heads/main.zip
 - 可与 `laogu-morning`（每日早报）配合使用：早报看今日看点，复盘看今日发生了什么
 
 ---
+## English
+
+**laogu-close — Post-close A-share recap.** After each trading day: index performance and turnover, leading and lagging sectors, limit-up movers, capital flows, and a next-day outlook, all in structured Chinese. Install: `npx skills add laogu-caibao/laogu-close`.
+
+## FAQ
+
+**Q：laogu-close 有什么用？**
+适合的场景：收盘后想快速知道今天谁在领涨、涨停的都是什么逻辑、钱往哪个板块流，而不是自己盯盘复盘。
+
+**Q：数据可靠吗？会荐股吗？**
+数字必须来自可核验的公开来源（上市公司公告、交易所公开数据、公开网页），取不到就标「未核验」，绝不编造；只做结构化整理与解读，不构成投资建议。
+
+**Q：怎么安装？支持哪些 AI 平台？**
+```bash
+npx skills add laogu-caibao/laogu-close
+```
+平台中立 Markdown，Claude Code、Codex、豆包智能体、Workbuddy、扣子 Coze、Trae 等环境均可用；数据能力可用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)（`uvx laogu-mcp`）一次装齐。更多 skill 见[老谷拆财报组织主页](https://github.com/laogu-caibao)。
+---
+
 ## 出品
 
 **老谷拆财报** —— 以数据为刃，剖市场真相
